@@ -1,0 +1,107 @@
+/* prcoessing fields */
+.x-form-processing, textarea.x-form-processing{
+	background:repeat-x bottom;
+	border: 1px solid;
+}
+
+.x-form-processing-icon {
+    width:16px;
+    height:18px;
+    visibility:hidden;
+    position:absolute;
+    left:0;
+    top:0;
+    display:block;
+    background:transparent no-repeat 0 2px;
+}
+
+.x-form-processing-icon {
+    background-image:url(images/tine20/form/exclamation.gif);
+}
+.action_previewAddressLabel{
+	background-image:url(../../images/oxygen/16x16/mimetypes/text-x-ldif.png) !important;
+}
+
+.action_addList {
+	background-image:url(../../images/oxygen/16x16/actions/users.png) !important;
+}
+.x-btn-medium .action_addList {
+    background-image:url(../../images/oxygen/22x22/actions/users.png) !important;
+}
+.x-btn-large .action_addList {
+    background-image:url(../../images/oxygen/32x32/actions/users.png) !important;
+}
+
+.action_extendedDialog {
+    background-image:url(../../images/oil/16x16/actions/view-right-new.png) !important;
+}
+.x-btn-medium .action_extendedDialog {
+    background-image:url(../../images/oil/22x22/actions/view-right-new.png) !important;
+}
+.x-btn-large .action_extendedDialog {
+    background-image:url(../../images/oil/32x32/actions/view-right-new.png) !important;
+}
+
+.AddressbookIconCls {
+    background-image:url(../../images/oxygen/16x16/apps/kaddressbook.png) !important;
+}
+.x-btn-medium .AddressbookIconCls {
+    background-image:url(../../images/oxygen/22x22/apps/kaddressbook.png) !important;
+}
+.x-btn-large .AddressbookIconCls {
+    background-image:url(../../images/oxygen/32x32/apps/kaddressbook.png) !important;
+}
+
+
+.x-form-item-float-left {
+    float: left;
+    margin-right: 5px;
+}
+
+.contactContactTreeIconUp{
+	background-image:url(../../images/oxygen/16x16/actions/arrow-up.png) !important;
+}
+
+.contactContactTreeIconDown{
+	background-image:url(../../images/oxygen/16x16/actions/arrow-down.png) !important;
+}
+
+.contactContactTreeIconRelation{
+	background-image:url(../../images/oxygen/16x16/actions/kontact-notes.png) !important;
+}
+
+.contactContactTreeIconContact{
+	background-image:url(../../images/oxygen/16x16/apps/kaddressbook.png) !important;
+}
+
+.contact-widget{
+	color:#7f7f7f;
+	text-decoration: none;
+	background-color:#e7f3d9;
+	font-size:10px;
+	position: relative;  
+	height:24px;
+	top:4px;
+	left: 4px;
+	right: 4px;
+	bottom: 4px;
+    padding:3px;
+}
+
+.contact-widget-contact{
+	background-image:url(../../images/oxygen/22x22/apps/kaddressbook.png) !important;
+	background-position:5px;
+	background-repeat:no-repeat;
+	float:left;
+	height:24px;
+	width: 200px;
+	padding-left:35px;
+}
+
+.contact-widget-address{
+	float:left;
+	height:24px;
+	width: 200px;
+	margin-left:20px;
+}
+

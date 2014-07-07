@@ -1,0 +1,583 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tine 2.0 - Addressbook\n"
+"POT-Creation-Date: 2008-05-17 22:12+0100\n"
+"PO-Revision-Date: 2010-06-09 21:43+0100\n"
+"Last-Translator: Wojciech Kaczmarek <wojciech_kaczmarek@wp.pl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+# If the translated text is too long we can just write over the whole sentence without the word 'shared' like: "Zarządzaj książkami adresowymi".
+# Wenn der uebersetzte Text zu lang ist, wir koennen den gesamten Satz einfach ohne das Wort 'shared' ueberschreiben: "Zarządzaj książkami adresowymi".
+#: Acl/Rights.php:99
+msgid "manage shared addressbooks"
+msgstr "edytuj wspólne książki adresowe"
+
+# It is also possible to use "wspólne" instead of "współdzielone".
+# Es is auch moeglich, "wspólne" statt "współdzielone" zu verwenden.
+#: Acl/Rights.php:100
+msgid "Create new shared addressbook folders"
+msgstr "Utwórz nowe, wspólne książki adresowe"
+
+#: Acl/Rights.php:103
+msgid "manage shared addressbook favorites"
+msgstr "zarządzaj ulubionymi ze wspólnej książki adresowej"
+
+#: Acl/Rights.php:104
+msgid "Create or update shared addressbook favorites"
+msgstr "Utwórz albo uaktualnij ulubione ze wspólnej książki adresowej"
+
+#: Controller.php:96
+#, python-format
+msgid "%s's personal addressbook"
+msgstr "%s's osobista książka adresowa"
+
+#: Export/Pdf.php:38
+msgid "Business Contact Data"
+msgstr "Dane kontaktowe firmy"
+
+#: Export/Pdf.php:40
+msgid "Organisation / Unit"
+msgstr "Organizacja / Jednostka"
+
+#: Export/Pdf.php:45
+msgid "Business Address"
+msgstr "Adres firmowy"
+
+#: Export/Pdf.php:53
+#: js/ContactGrid.js:113
+msgid "Email"
+msgstr "E-mail"
+
+#: Export/Pdf.php:56
+msgid "Telephone Work"
+msgstr "Telefon (biuro)"
+
+#: Export/Pdf.php:59
+msgid "Telephone Cellphone"
+msgstr "Telefon (komórka)"
+
+#: Export/Pdf.php:62
+msgid "Telephone Car"
+msgstr "Telefon (samochód)"
+
+# As mentioned above, we cannot use the letter 'x'. It couldn't be correct in Polish. But in this case two forms are possible: "Faks" or "Fax". I suggest to use the first one.
+# Wie oben erwaehnt, wir sollen den Buchstaben 'x' nicht benutzen. In diesem Fall jedoch sind beide Formen moeglich: "Faks" oder "Fax". Ich schage vor, die erste Form zu benutzen.
+#: Export/Pdf.php:65
+msgid "Telephone Fax"
+msgstr "Faks"
+
+#: Export/Pdf.php:68
+msgid "Telephone Page"
+msgstr "Pager"
+
+#: Export/Pdf.php:71
+msgid "URL"
+msgstr "URL"
+
+# The word "Rola" could not be clearly understood. The word "Funkcja" is a better choice.
+# Das Wort "Rola" koennte missverstanden werden. Das Wort "Funkcja" passt besser.
+#: Export/Pdf.php:74
+msgid "Role"
+msgstr "Funkcja"
+
+#: Export/Pdf.php:77
+#: js/ContactEditDialog.js:156
+#: js/ContactGrid.js:102
+msgid "Room"
+msgstr "Pokój"
+
+#: Export/Pdf.php:80
+msgid "Assistant"
+msgstr "Sekretarka"
+
+#: Export/Pdf.php:83
+msgid "Assistant Telephone"
+msgstr "Telefon sekretarki"
+
+#: Export/Pdf.php:87
+msgid "Private Contact Data"
+msgstr "Prywatne dane kontaktowe"
+
+#: Export/Pdf.php:89
+#: js/ContactEditDialog.js:258
+#: js/Model.js:161
+#: js/Model.js:162
+#: js/Model.js:163
+msgid "Private Address"
+msgstr "Adres prywatny"
+
+#: Export/Pdf.php:97
+msgid "Email Home"
+msgstr "E-mail domowy"
+
+#: Export/Pdf.php:100
+msgid "Telephone Home"
+msgstr "Telefon domowy"
+
+#: Export/Pdf.php:103
+msgid "Telephone Cellphone Private"
+msgstr "Telefon prywatny (komórka)"
+
+#: Export/Pdf.php:106
+msgid "Telephone Fax Home"
+msgstr "Faks domowy"
+
+#: Export/Pdf.php:109
+msgid "URL Home"
+msgstr "Prywatny URL"
+
+#: Export/Pdf.php:113
+msgid "Other Data"
+msgstr "Inne dane"
+
+#: Export/Pdf.php:115
+#: js/ContactEditDialog.js:144
+#: js/ContactGrid.js:128
+#: js/Model.js:157
+msgid "Birthday"
+msgstr "Urodziny"
+
+#: Export/Pdf.php:118
+#: js/ContactEditDialog.js:139
+#: js/ContactGrid.js:100
+#: js/Model.js:153
+msgid "Job Title"
+msgstr "Stanowisko"
+
+#: js/Addressbook.js:29
+#: js/Model.js:103
+msgid "Addressbook"
+msgid_plural "Addressbooks"
+msgstr[0] "Książka adresowa"
+msgstr[1] "książki adresowe"
+msgstr[2] "książki adresowe"
+
+#: js/Addressbook.js:54
+#: Setup/setup.xml:546
+msgid "Internal Contacts"
+msgstr "Kontakty wewnętrzne"
+
+#: js/ContactEditDialog.js:36
+#: js/ContactEditDialog.js:43
+msgid "Map"
+msgstr "Mapa"
+
+#: js/ContactEditDialog.js:66
+msgid "Personal Information"
+msgstr "Informacje osobiste"
+
+#: js/ContactEditDialog.js:87
+msgid "Salutation"
+msgstr "Forma grzecznościowa"
+
+#: js/ContactEditDialog.js:97
+msgid "Title"
+msgstr "Tytuł"
+
+#: js/ContactEditDialog.js:104
+#: js/ContactGrid.js:95
+#: js/Model.js:149
+msgid "First Name"
+msgstr "Imię"
+
+#: js/ContactEditDialog.js:108
+msgid "Middle Name"
+msgstr "Drugie imię"
+
+#: js/ContactEditDialog.js:112
+#: js/ContactEditDialog.js:385
+#: js/ContactGrid.js:94
+#: js/Model.js:150
+msgid "Last Name"
+msgstr "Nazwisko"
+
+#: js/ContactEditDialog.js:120
+#: js/ContactEditDialog.js:385
+#: js/ContactGrid.js:98
+#: js/ContactGridDetailsPanel.js:131
+#: js/Model.js:151
+#: Setup/setup.xml:608
+msgid "Company"
+msgstr "Firma"
+
+#: js/ContactEditDialog.js:125
+#: js/ContactGrid.js:99
+msgid "Unit"
+msgstr "Jednostka"
+
+#: js/ContactEditDialog.js:134
+#: js/ContactGrid.js:97
+msgid "Display Name"
+msgstr "Wyświetlana nazwa"
+
+#: js/ContactEditDialog.js:148
+msgid "Suffix"
+msgstr "Dopełnienie nazwiska (Sufix)"
+
+#: js/ContactEditDialog.js:152
+#: js/ContactGrid.js:101
+#: js/Model.js:154
+msgid "Job Role"
+msgstr "Pełniona funkcja"
+
+# I think, it would be better, if we use the plural form "Informacje" instead of "Informacja".
+# Ich denke, es waere besser, wenn wir die Pluralform "Informacje" anstatt von "Informacja" verwenden.
+#: js/ContactEditDialog.js:163
+msgid "Contact Information"
+msgstr "Informacje kontaktowe"
+
+#: js/ContactEditDialog.js:168
+#: js/ContactGrid.js:114
+#: js/ContactGridDetailsPanel.js:139
+#: js/ContactGridDetailsPanel.js:163
+#: js/Model.js:152
+msgid "Phone"
+msgstr "Telefon"
+
+#: js/ContactEditDialog.js:172
+#: js/ContactGrid.js:115
+#: js/ContactGridDetailsPanel.js:140
+#: js/ContactGridDetailsPanel.js:164
+msgid "Mobile"
+msgstr "Komórka"
+
+#: js/ContactEditDialog.js:176
+#: js/ContactGrid.js:116
+#: js/ContactGridDetailsPanel.js:141
+#: js/ContactGridDetailsPanel.js:165
+msgid "Fax"
+msgstr "Faks"
+
+#: js/ContactEditDialog.js:180
+#: js/ContactGrid.js:119
+msgid "Phone (private)"
+msgstr "Telefon (prywatny)"
+
+#: js/ContactEditDialog.js:184
+#: js/ContactGrid.js:121
+msgid "Mobile (private)"
+msgstr "Komórka (prywatna)"
+
+#: js/ContactEditDialog.js:188
+#: js/ContactGrid.js:120
+msgid "Fax (private)"
+msgstr "Faks (prywatny)"
+
+#: js/ContactEditDialog.js:192
+#: js/ContactGridDetailsPanel.js:142
+#: js/ContactGridDetailsPanel.js:166
+msgid "E-Mail"
+msgstr "E-mail"
+
+#: js/ContactEditDialog.js:197
+msgid "E-Mail (private)"
+msgstr "E-mail (prywatny)"
+
+#: js/ContactEditDialog.js:203
+#: js/ContactGrid.js:123
+#: js/ContactGridDetailsPanel.js:144
+#: js/ContactGridDetailsPanel.js:168
+msgid "Web"
+msgstr "WWW"
+
+#: js/ContactEditDialog.js:235
+#: js/Model.js:158
+#: js/Model.js:159
+#: js/Model.js:160
+msgid "Company Address"
+msgstr "Adres firmy"
+
+#: js/ContactEditDialog.js:238
+#: js/ContactEditDialog.js:261
+#: js/ContactGrid.js:103
+#: js/Model.js:158
+#: js/Model.js:161
+msgid "Street"
+msgstr "Ulica"
+
+#: js/ContactEditDialog.js:241
+#: js/ContactEditDialog.js:264
+msgid "Street 2"
+msgstr "Ulica 2"
+
+#: js/ContactEditDialog.js:244
+#: js/ContactEditDialog.js:267
+#: js/ContactGrid.js:105
+msgid "Region"
+msgstr "Województwo"
+
+#: js/ContactEditDialog.js:247
+#: js/ContactEditDialog.js:270
+#: js/Model.js:159
+#: js/Model.js:162
+msgid "Postal Code"
+msgstr "Kod pocztowy"
+
+#: js/ContactEditDialog.js:250
+#: js/ContactEditDialog.js:273
+#: js/ContactGrid.js:104
+#: js/Model.js:160
+#: js/Model.js:163
+msgid "City"
+msgstr "Miasto"
+
+#: js/ContactEditDialog.js:254
+#: js/ContactEditDialog.js:277
+#: js/ContactGrid.js:107
+msgid "Country"
+msgstr "Kraj"
+
+#: js/ContactEditDialog.js:297
+msgid "Description"
+msgstr "Opis"
+
+#: js/ContactEditDialog.js:311
+msgid "Enter description"
+msgstr "Wprowadź opis"
+
+#: js/ContactEditDialog.js:360
+msgid "Export as pdf"
+msgstr "Eksportuj jako PDF"
+
+#: js/ContactEditDialog.js:385
+msgid "Either {0} or {1} must be given"
+msgstr "Należy wprowadzić {0} albo {1}"
+
+#: js/ContactGrid.js:92
+#: js/Model.js:164
+msgid "Type"
+msgstr "Ikona"
+
+#: js/ContactGrid.js:93
+msgid "Tags"
+msgstr "Znaczniki"
+
+#: js/ContactGrid.js:96
+msgid "Full Name"
+msgstr "Imię i nazwisko"
+
+#: js/ContactGrid.js:106
+msgid "Postalcode"
+msgstr "Kod pocztowy"
+
+#: js/ContactGrid.js:108
+msgid "Street (private)"
+msgstr "Ulica (adres prywatny)"
+
+#: js/ContactGrid.js:109
+msgid "City (private)"
+msgstr "Miasto (adres prywatny)"
+
+#: js/ContactGrid.js:110
+msgid "Region (private)"
+msgstr "Województwo (adres prywatny)"
+
+#: js/ContactGrid.js:111
+msgid "Postalcode (private)"
+msgstr "Kod pocztowy (adres prywatny)"
+
+#: js/ContactGrid.js:112
+msgid "Country (private)"
+msgstr "Kraj (adres prywatny)"
+
+#: js/ContactGrid.js:117
+msgid "Car phone"
+msgstr "Telefon (samochód)"
+
+#: js/ContactGrid.js:118
+msgid "Pager"
+msgstr "Pager"
+
+#: js/ContactGrid.js:122
+msgid "Email (private)"
+msgstr "E-mail (prywatny)"
+
+#: js/ContactGrid.js:124
+msgid "URL (private)"
+msgstr "URL (prywatny)"
+
+#: js/ContactGrid.js:125
+#: js/Model.js:155
+msgid "Note"
+msgstr "Notatka"
+
+#: js/ContactGrid.js:126
+msgid "Timezone"
+msgstr "Strefa czasowa"
+
+#: js/ContactGrid.js:127
+msgid "Geo"
+msgstr "Położenie geograficzne"
+
+#: js/ContactGrid.js:129
+#: js/Model.js:167
+msgid "Creation Time"
+msgstr "Utworzono"
+
+#: js/ContactGrid.js:130
+msgid "Last Modified Time"
+msgstr "Ostatnio zmieniano"
+
+#: js/ContactGrid.js:150
+msgid "Export Contact"
+msgstr "Eksportuj kontakt"
+
+# I think, we don't need to translate 1:1 in this case Instead of that, we should use the imperative form "Eksportuj". Moreover we cannot use the letter 'x'. It couldn't be correct in Polish.
+# Ich denke, in diesem Fall brauchen wir keine 1:1 Uebersetzung. Anstatt dessen sollen wir eine Imperativform "Eksportuj" verwenden. Darueber hinaus sollen wir den Buchstaben 'x' nicht verwenden. Dies waere nicht richtig im Polnischen.
+#: js/ContactGrid.js:159
+msgid "Export as PDF"
+msgstr "Eksportuj jako PDF"
+
+# I think, we don't need to translate 1:1 in this case Instead of that, we should use the imperative form "Eksportuj". Moreover we cannot use the letter 'x'. It couldn't be correct in Polish.
+# Ich denke, in diesem Fall brauchen wir keine 1:1 Uebersetzung. Anstatt dessen sollen wir eine Imperativform "Eksportuj" verwenden. Darueber hinaus sollen wir den Buchstaben 'x' nicht benutzen. Dies waere nicht richtig im Polnischen.
+#: js/ContactGrid.js:166
+msgid "Export as CSV"
+msgstr "Eksportuj jako CSV"
+
+#: js/ContactGrid.js:173
+msgid "Export as ODS"
+msgstr "Eksportuj jako ODS"
+
+#: js/ContactGrid.js:180
+msgid "Export as XLS"
+msgstr "Eksportuj jako XLS"
+
+#: js/ContactGrid.js:196
+msgid "Call contact"
+msgstr "Wywołaj kontakt"
+
+#: js/ContactGrid.js:206
+msgid "Compose email"
+msgstr "Nowa wiadomość"
+
+#: js/ContactGrid.js:216
+msgid "Import contacts"
+msgstr "Importuj kontakty"
+
+# The other possibility could be: "Służbowo", see the german translation.
+# Die andere moeglichkeit waere: "Służbowo", siehe die deutsche Uebersetzung.
+#: js/ContactGrid.js:305
+msgid "Work"
+msgstr "Praca"
+
+#: js/ContactGrid.js:314
+msgid "Home"
+msgstr "Prywatnie"
+
+#: js/ContactGrid.js:323
+msgid "Cell"
+msgstr "Komórka"
+
+#: js/ContactGrid.js:332
+msgid "Cell private"
+msgstr "Komórka prywatna"
+
+#: js/ContactGrid.js:435
+msgid "Internal Contact"
+msgstr "Kontakty wewnętrzne"
+
+#: js/ContactGridDetailsPanel.js:62
+#: js/Model.js:99
+msgid "Contacts"
+msgstr "Kontakty"
+
+#: js/ContactGridDetailsPanel.js:65
+msgid "Select contact"
+msgstr "Wybierz kontakt"
+
+#: js/ContactGridDetailsPanel.js:155
+msgid "Private"
+msgstr "Prywatny"
+
+#: js/ContactGridDetailsPanel.js:178
+msgid "Info"
+msgstr "Informacja"
+
+#: js/Model.js:99
+#: js/Model.js:144
+msgid "Contact"
+msgid_plural "Contacts"
+msgstr[0] "kontakt"
+msgstr[1] "kontakty"
+msgstr[2] "kontaktów"
+
+#: js/Model.js:103
+msgid "Addressbooks"
+msgstr "Książki adresowe"
+
+#: js/Model.js:144
+msgid "User Account"
+msgstr "Konto użytkownika"
+
+#: js/Model.js:147
+msgid "Quick search"
+msgstr "Szybkie wyszukiwanie"
+
+#: js/Model.js:165
+msgid "Last modified"
+msgstr "Ostatnio zmieniono"
+
+#: js/Model.js:166
+msgid "Last modifier"
+msgstr "Ostatnio zmienione przez"
+
+#: js/Model.js:168
+msgid "Creator"
+msgstr "Utworzył(a)"
+
+#: js/SearchCombo.js:92
+msgid "Searching..."
+msgstr "Wyszukiwanie..."
+
+#: Preference.php:34
+msgid "All contacts"
+msgstr "Wszystkie kontakty"
+
+#: Preference.php:71
+msgid "Default Addressbook"
+msgstr "Domyślna książka adresowa"
+
+#: Preference.php:72
+msgid "The default addressbook for new contacts"
+msgstr "Domyślna książka adresowa dla nowych kontaktów"
+
+#: Preference.php:75
+msgid "Default Favorite"
+msgstr "Domyślny ulubiony"
+
+#: Preference.php:76
+msgid "The default favorite which is loaded on addressbook startup"
+msgstr "Domyślny ulubiony adres ładowany podczas otwierania skrzynki adresowej"
+
+#: Setup/Initialize.php:51
+#: Setup/Update/Release3.php:38
+msgid "All contacts I have read grants for"
+msgstr "Wszystkie kontakty, które wolno mi czytać"
+
+#: Setup/setup.xml:572
+msgid "Mr"
+msgstr "Pan"
+
+#: Setup/setup.xml:590
+msgid "Ms"
+msgstr "Pani"
+
+#~ msgid "addressbook"
+#~ msgid_plural "addressbooks"
+#~ msgstr[0] "Książka adresowa"
+#~ msgstr[1] "książki adresowe"
+#~ msgstr[2] "książki adresowe"
+#~ msgid "addressbooks"
+#~ msgstr "książki adresowe"
+#~ msgid "contacts"
+#~ msgstr "kontakty"
+#~ msgid "export as pdf"
+#~ msgstr "eksportuj jako pdf"
+
