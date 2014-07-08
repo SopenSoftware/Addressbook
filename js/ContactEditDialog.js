@@ -1798,12 +1798,12 @@ mainContactDataTabPanel
 	    ];
 
         var additionalPanels = [Tine.Addressbook.getContactContactPanel(this.record),
-            new Tine.Document.DocumentsTabPanel({
-              app: Tine.Tinebase.appMgr.get('Addressbook'),
-              record: this.record,
-              record_id: (this.record) ? this.record.id : '',
-              record_model: this.appName + '_Model_' + this.recordClass.getMeta('modelName')
-            })
+          new Tine.Document.DocumentsTabPanel({
+            app: Tine.Tinebase.appMgr.get('FundProject'),
+            record: this.record,
+            parent_id: Tine.Document.registry.get('config').addressbook_id,
+            record_model: this.appName + '_Model_' + this.recordClass.getMeta('modelName')
+          })
         ];
 
         contactTabPanel.add(standardPanels);
